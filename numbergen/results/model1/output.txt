@@ -3,35 +3,35 @@ Metal device set to: Apple M1
 systemMemory: 16.00 GB
 maxCacheSize: 5.33 GB
 
-2022-05-28 12:18:02.516259: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:305] Could not identify NUMA node of platform GPU ID 0, defaulting to 0. Your kernel may not have been built with NUMA support.
-2022-05-28 12:18:02.516373: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:271] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 0 MB memory) -> physical PluggableDevice (device: 0, name: METAL, pci bus id: <undefined>)
-2022-05-28 12:18:02.566705: W tensorflow/core/platform/profile_utils/cpu_utils.cc:128] Failed to get CPU frequency: 0 Hz
+2022-05-28 13:23:57.938318: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:305] Could not identify NUMA node of platform GPU ID 0, defaulting to 0. Your kernel may not have been built with NUMA support.
+2022-05-28 13:23:57.938414: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:271] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 0 MB memory) -> physical PluggableDevice (device: 0, name: METAL, pci bus id: <undefined>)
+2022-05-28 13:23:57.991853: W tensorflow/core/platform/profile_utils/cpu_utils.cc:128] Failed to get CPU frequency: 0 Hz
 Epoch 0: generator loss -> 0, discriminator_loss -> 0, time elapsed: 9.5367431640625e-07
-2022-05-28 12:18:40.698911: I tensorflow/core/grappler/optimizers/custom_graph_optimizer_registry.cc:113] Plugin optimizer for device_type GPU is enabled.
-2022-05-28 12:19:28.041168: I tensorflow/core/grappler/optimizers/custom_graph_optimizer_registry.cc:113] Plugin optimizer for device_type GPU is enabled.
-Epoch 1: generator loss -> 0.7716343402862549, discriminator_loss -> 1.1526628732681274, time elapsed: 48.39772582054138
-Epoch 2: generator loss -> 1.0126681327819824, discriminator_loss -> 0.787083625793457, time elapsed: 97.86600708961487
-Epoch 3: generator loss -> 1.7699024677276611, discriminator_loss -> 0.48561984300613403, time elapsed: 149.56853103637695
-Epoch 4: generator loss -> 1.679717779159546, discriminator_loss -> 0.5488071441650391, time elapsed: 202.74854397773743
-Epoch 5: generator loss -> 2.3601012229919434, discriminator_loss -> 0.3834812045097351, time elapsed: 257.3463821411133
-Epoch 6: generator loss -> 2.2306385040283203, discriminator_loss -> 0.3375680446624756, time elapsed: 320.1915760040283
-Epoch 7: generator loss -> 2.2623143196105957, discriminator_loss -> 0.4141886830329895, time elapsed: 396.0834369659424
-Epoch 8: generator loss -> 1.3356753587722778, discriminator_loss -> 0.5173362493515015, time elapsed: 475.6526939868927
-Epoch 9: generator loss -> 1.031188726425171, discriminator_loss -> 0.7467039823532104, time elapsed: 555.8838379383087
-Epoch 10: generator loss -> 0.9039835929870605, discriminator_loss -> 0.8237680792808533, time elapsed: 636.8850739002228
-Epoch 11: generator loss -> 2.8119139671325684, discriminator_loss -> 0.5639346241950989, time elapsed: 718.6947078704834
-Epoch 12: generator loss -> 1.7059630155563354, discriminator_loss -> 0.4635118842124939, time elapsed: 800.546373128891
-Epoch 13: generator loss -> 1.719212532043457, discriminator_loss -> 0.46348878741264343, time elapsed: 883.8780138492584
-Epoch 14: generator loss -> 2.1821670532226562, discriminator_loss -> 0.40794771909713745, time elapsed: 967.3249452114105
-Epoch 15: generator loss -> 2.674437999725342, discriminator_loss -> 0.3318326473236084, time elapsed: 1050.364021062851
-Epoch 16: generator loss -> 1.9077281951904297, discriminator_loss -> 0.37603074312210083, time elapsed: 1133.3066310882568
-Epoch 17: generator loss -> 2.3773398399353027, discriminator_loss -> 0.31426340341567993, time elapsed: 1215.5094718933105
-Epoch 18: generator loss -> 4.167306900024414, discriminator_loss -> 0.6762151718139648, time elapsed: 1297.708487033844
-Epoch 19: generator loss -> 3.121448040008545, discriminator_loss -> 0.534234881401062, time elapsed: 1379.7775769233704
-Epoch 20: generator loss -> 2.6125850677490234, discriminator_loss -> 0.25224044919013977, time elapsed: 1462.5846660137177
-Epoch 21: generator loss -> 3.2713098526000977, discriminator_loss -> 0.18374237418174744, time elapsed: 1545.1886661052704
-Epoch 22: generator loss -> 1.8590037822723389, discriminator_loss -> 0.3663819432258606, time elapsed: 1627.955717086792
-Epoch 23: generator loss -> 3.178637742996216, discriminator_loss -> 0.20307917892932892, time elapsed: 1710.4695858955383
-Epoch 24: generator loss -> 3.7683935165405273, discriminator_loss -> 0.31277740001678467, time elapsed: 1792.6805419921875
- 2022-05-28 12:50:29.109352: I tensorflow/core/grappler/optimizers/custom_graph_optimizer_registry.cc:113] Plugin optimizer for device_type GPU is enabled.
-1/1 [==============================] - 0s 120ms/step
+2022-05-28 13:24:42.022416: I tensorflow/core/grappler/optimizers/custom_graph_optimizer_registry.cc:113] Plugin optimizer for device_type GPU is enabled.
+2022-05-28 13:25:33.571433: I tensorflow/core/grappler/optimizers/custom_graph_optimizer_registry.cc:113] Plugin optimizer for device_type GPU is enabled.
+Epoch 1: generator loss -> 0.7163721323013306, discriminator_loss -> 1.3384371995925903, time elapsed: 52.734009742736816
+Epoch 2: generator loss -> 0.8270140886306763, discriminator_loss -> 1.3263541460037231, time elapsed: 107.07298302650452
+Epoch 3: generator loss -> 0.7835875153541565, discriminator_loss -> 1.321988582611084, time elapsed: 186.50967383384705
+Epoch 4: generator loss -> 0.7849149703979492, discriminator_loss -> 1.3283838033676147, time elapsed: 270.06793093681335
+Epoch 5: generator loss -> 0.7630583047866821, discriminator_loss -> 1.4953558444976807, time elapsed: 352.59567284584045
+Epoch 6: generator loss -> 0.9039266109466553, discriminator_loss -> 1.312878131866455, time elapsed: 436.94242572784424
+Epoch 7: generator loss -> 0.6930206418037415, discriminator_loss -> 1.3440420627593994, time elapsed: 523.4697930812836
+Epoch 8: generator loss -> 0.8592559099197388, discriminator_loss -> 1.2894655466079712, time elapsed: 611.6554460525513
+Epoch 9: generator loss -> 0.9230515956878662, discriminator_loss -> 1.4553016424179077, time elapsed: 699.3669939041138
+Epoch 10: generator loss -> 0.8072305917739868, discriminator_loss -> 1.200226068496704, time elapsed: 788.3934106826782
+Epoch 11: generator loss -> 1.1292296648025513, discriminator_loss -> 1.4023206233978271, time elapsed: 877.523316860199
+Epoch 12: generator loss -> 0.8349272608757019, discriminator_loss -> 1.2620186805725098, time elapsed: 966.0690939426422
+Epoch 13: generator loss -> 0.8625004887580872, discriminator_loss -> 1.1696306467056274, time elapsed: 1051.6888110637665
+Epoch 14: generator loss -> 0.8306688070297241, discriminator_loss -> 1.4067137241363525, time elapsed: 1134.8595578670502
+Epoch 15: generator loss -> 0.8988755941390991, discriminator_loss -> 1.3018133640289307, time elapsed: 1216.9169237613678
+Epoch 16: generator loss -> 0.7726223468780518, discriminator_loss -> 1.3104524612426758, time elapsed: 1297.8193218708038
+Epoch 17: generator loss -> 0.8693541884422302, discriminator_loss -> 1.0890437364578247, time elapsed: 1379.0153667926788
+Epoch 18: generator loss -> 0.6618814468383789, discriminator_loss -> 1.3406744003295898, time elapsed: 1459.116145849228
+Epoch 19: generator loss -> 0.8615763783454895, discriminator_loss -> 1.2668845653533936, time elapsed: 1539.018248796463
+Epoch 20: generator loss -> 0.7760055065155029, discriminator_loss -> 1.2978320121765137, time elapsed: 1618.1101319789886
+Epoch 21: generator loss -> 0.8044328689575195, discriminator_loss -> 1.1562238931655884, time elapsed: 1696.7022008895874
+Epoch 22: generator loss -> 0.9072753190994263, discriminator_loss -> 1.2597594261169434, time elapsed: 1774.4588479995728
+Epoch 23: generator loss -> 0.8681049346923828, discriminator_loss -> 1.3925514221191406, time elapsed: 1851.9797298908234
+Epoch 24: generator loss -> 0.9662044048309326, discriminator_loss -> 1.243696928024292, time elapsed: 1930.1444606781006
+2022-05-28 14:12:49.512008: I tensorflow/core/grappler/optimizers/custom_graph_optimizer_registry.cc:113] Plugin optimizer for device_type GPU is enabled.
+2/2 [==============================] - 0s 16ms/step

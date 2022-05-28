@@ -18,7 +18,7 @@ import time
 
 def normalize_img(image):
     fin = tf.cast(image, tf.float32)
-    return fin / 255
+    return (fin - 127.5) / 127.5
 
 
 slices = []
@@ -120,7 +120,7 @@ def train(dataset, epochs):
 
 train(train_images, 25)
 
-cnt = 25
+cnt = 50
 noise = tf.random.normal([cnt, 100])
 pred = generator.predict(noise)
 
